@@ -57,8 +57,14 @@ bit SysMainSytemPowerDetect(void);
 //--------------------------------------------------
 void main(void)
 {
+	int a=0;
     do
     {
+		a++;
+		if(a==5000)
+		{
+			a=0;
+		}
         SysMainSystemInitial();
        
         while(SysMainSytemPowerDetect() == _TRUE)
