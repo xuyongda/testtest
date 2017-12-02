@@ -179,3 +179,4 @@ bit SysMainSytemPowerDetect(void)
 {
     return PCB_POWER_5V_DETECT();
 }
+hell main,i come here
